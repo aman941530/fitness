@@ -1,0 +1,50 @@
+
+header{
+ 
+ display: flex;align-items: center;
+ justify-content: space-between;text-align: center; padding: 20px;
+ border-bottom: 5px solid  grey;
+}
+
+.nav{
+ list-style: none;
+ display:flex;
+}
+li{
+ margin-left: 50px;margin-right: 50px;font-weight: 600;
+}
+a{
+ color:black;text-decoration: none;
+}
+
+
+
+h1{margin:50px;
+ margin-top:150px
+}
+
+
+.container{margin:50px;
+ height:500px;display:flex;
+}
+.box{
+padding: 20px;
+width:200px;height:490px;
+flex:1;box-sizing: border-box;color:white;font-size:30px;
+}
+#box1{
+background: url(/photo/pexels-valeria-boltneva-842571.jpg);
+background-size: cover;
+}
+#box2{
+ background: url(/photo/pexels-pixabay-221247.jpg);
+ background-size: cover;
+}
+#box3{
+  background: url(/photo/pexels-trang-doan-793759.jpg);
+ background-size: cover;
+}
+
+.box:hover{
+flex:2
+}
